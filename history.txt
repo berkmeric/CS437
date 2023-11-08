@@ -1,0 +1,77 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  clear
+    4  sudo ufw app list
+    5  sudo ufw allow 'Apache'
+    6  sudo apt install apache2
+    7  sudo systemctl is-enabled apache2.service
+    8  sudo systemctl enable apache2.service
+    9  apache2 -version
+   10  sudo ufw allow 'Apache'
+   11  sudo systemctl status apache2.service
+   12  clear
+   13  ls
+   14  clear
+   15  sudo shutdown -r now
+   16  sudo apt-get update
+   17  sudo apt-get install git python-virtualenv libffi-dev build-essential libpython-dev python2.7-minimal python3.5-minimal python-dev libmysqlclient-dev
+   18  sudo apt-get install virtualenv
+   19  sudo apt-get install python3-dev
+   20  clear
+   21  sudo ufw
+   22  sudo ufw allow
+   23  sudo ufw enable
+   24  sudo ufw allow 9200
+   25  sudo ufw allow 9300
+   26  netstat -tuln
+   27  apt install net-tools
+   28  netstat -tuln
+   29  clear
+   30  sudo ufw allow 9200/tcp
+   31  sudo ufw allow 9300/tcp
+   32  sudo adduser --disabled-password elasticpot
+   33  sudo su - elasticpot
+   34  sudo apt-get update
+   35  sudo apt-get install pkg-config
+   36  sudo apt-get install default-libmysqlclient-dev
+   37  sudo apt-get install libmariadb-dev
+   38  clear
+   39  sudo su - elasticpot
+   40  sudo apt-get install build-essential
+   41  sudo su - elasticpot
+   42  ls
+   43  sudo adduser --disabled-password elastichoney
+   44  sudo su - elastichoney
+   45  netstat -tuln
+   46  clear
+   47  sudo apt install golang-go
+   48  clear
+   49  sudo su - elastichoney
+   50  netstat -tuln
+   51  ss -tuln
+   52  clear
+   53  sudo su - elastichoney
+   54  ls
+   55  cd snap
+   56  ls
+   57  cd ..
+   58  ls
+   59  cd :/var/www/html
+   60  cd /var/www/html
+   61  ls
+   62  cat index.html
+   63  rm index.html
+   64  ls
+   65  touch index.html
+   66  ls
+   67  nano index.html
+   68  clear
+   69  sudo su - elastichoney
+   70  netstat -tuln
+   71  sudo su - elasticpot
+   72  clear
+   73  sudo su - elastichoney
+   74  ls
+   75  touch history.txt
+   76  ls
+   77  history > history.txt
